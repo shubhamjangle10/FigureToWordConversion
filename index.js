@@ -38,7 +38,12 @@ btn.addEventListener('click',()=>{
             output = op3+" "+op2+" and "+op1;
         }
         else{
-            output = op3+" and "+op1;
+            if(op1!=0){
+                output = op3+" and "+op1;
+            }
+            else{
+                output = op3;
+            }
         }
     }
     else if(ipLength==6 || ipLength==7){
@@ -70,8 +75,11 @@ btn.addEventListener('click',()=>{
                 op2 = digits[val2]+" "+"hundred";
                 output = op4+" "+op2+" and "+op1;
             }
-            else{
+            if(op1!=0){
                 output = op4+" and "+op1;
+            }
+            else{
+                output = op4;
             }
         }
     }
