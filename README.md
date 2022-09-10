@@ -1,7 +1,7 @@
-# FigureToWordConversion'
-This is a conversion tool which converts figures into its equivalent text (usecase: amount in figures to amount in words)
-
-Below are some examples: 
+# FigureToWordConversion'<br>
+This is a conversion tool which converts figures into its equivalent text (usecase: amount in figures to amount in words)<br>
+<br>
+Below are some examples: <br>
 1 = one <br>
-12999 = twelve thousand nine hundred and ninety nine
+12999 = twelve thousand nine hundred and ninety nine<br>
 4554215 = forty five lakh fifty four thousand two hundred and fifteen
